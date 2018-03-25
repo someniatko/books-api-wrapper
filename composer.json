@@ -1,0 +1,22 @@
+{
+    "name": "someniatko/books-api-wrapper",
+    "license": "WTFPL",
+    "type": "project",
+    "description": "Wrapper for Books API (task for interview)",
+    "autoload": {
+        "psr-4": {
+            "BooksApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BooksApi\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "require": {
+        "kriswallsmith/buzz": "^0.16.1"
+    }
+}
