@@ -2,8 +2,8 @@
 
 namespace BooksApi\Request;
 
-use BooksApi\Core\LimitScopeInterface;
-use BooksApi\Core\NoLimitScope;
+use BooksApi\LimitScope\LimitScopeInterface;
+use BooksApi\LimitScope\NoLimitScope;
 use function http_build_query;
 
 abstract class AbstractRequest implements RequestInterface

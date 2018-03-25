@@ -2,7 +2,7 @@
 
 namespace BooksApi;
 
-use BooksApi\Core\LimitScopeInterface;
+use BooksApi\LimitScope\LimitScopeInterface;
 use BooksApi\Request\AllAuthorsRequest;
 use BooksApi\Request\AllBooksRequest;
 use BooksApi\Request\BooksByAuthorRequest;

@@ -1,6 +1,6 @@
 <?php
 
-namespace BooksApi\Core;
+namespace BooksApi\LimitScope;
 
 use SebastianBergmann\Timer\RuntimeException;
 

@@ -2,7 +2,7 @@
 
 namespace BooksApi\Request;
 
-use BooksApi\Core\LimitScopeInterface;
+use BooksApi\LimitScope\LimitScopeInterface;
 use BooksApi\Transformer\BookTransformer;
 use BooksApi\Transformer\TransformerInterface;
 

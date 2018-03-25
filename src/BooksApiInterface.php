@@ -2,7 +2,7 @@
 
 namespace BooksApi;
 
-use BooksApi\Core\LimitScopeInterface;
+use BooksApi\LimitScope\LimitScopeInterface;
 use BooksApi\Response\ResponseInterface;
 
 interface BooksApiInterface

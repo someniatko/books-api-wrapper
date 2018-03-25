@@ -2,9 +2,9 @@
 
 namespace BooksApi\RequestPerformer;
 
-use BooksApi\Core\LimitScope;
-use BooksApi\Core\LimitScopeInterface;
-use BooksApi\Core\NoLimitScope;
+use BooksApi\LimitScope\LimitScope;
+use BooksApi\LimitScope\LimitScopeInterface;
+use BooksApi\LimitScope\NoLimitScope;
 use BooksApi\Request\RequestInterface;
 use BooksApi\Response\Response;
 use BooksApi\Response\ResponseInterface;

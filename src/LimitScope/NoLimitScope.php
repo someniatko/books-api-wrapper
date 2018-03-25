@@ -1,6 +1,6 @@
 <?php
 
-namespace BooksApi\Core;
+namespace BooksApi\LimitScope;
 
 class NoLimitScope implements LimitScopeInterface
 {

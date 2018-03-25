@@ -2,8 +2,7 @@
 
 namespace BooksApi\Response;
 
-use BooksApi\Core\LimitScope;
-use BooksApi\Core\LimitScopeInterface;
+use BooksApi\LimitScope\LimitScopeInterface;
 
 class Response implements ResponseInterface
 {
